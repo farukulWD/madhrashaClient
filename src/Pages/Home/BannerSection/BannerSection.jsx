@@ -5,7 +5,7 @@ import Links from "./Links";
 const BannerSection = () => {
   return (
     <div className="primaryBgColor py-5">
-      <div className="flex my-container gap-6 justify-between items-center">
+      <div className="flex my-container gap-10 justify-between items-center">
         <div className="w-1/2">
           <Banner></Banner>
         </div>
