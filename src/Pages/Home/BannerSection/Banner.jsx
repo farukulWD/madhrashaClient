@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 const Banner = () => {
   return (
-    <div className="">
+    <div className=" border-[20px] border-white">
       <Swiper
         modules={[Navigation, Pagination]}
         spaceBetween={50}
