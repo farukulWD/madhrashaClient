@@ -1,6 +1,7 @@
 import axios from "axios";
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NoticeBoard = () => {
   const [notice, setNotice] = useState([]);
@@ -17,8 +18,11 @@ const NoticeBoard = () => {
         </div>
       ))}
       <div className="flex justify-center">
-        <button className="btn btn-sm">All Notice</button>
+        <button className="btn btn-sm">
+          <Link to={"/notice"}>All Notice</Link>
+        </button>
       </div>
+      <h3>This is h3 heading</h3>
     </div>
   );
 };
