@@ -22,7 +22,6 @@ const NoticeBoard = () => {
           <Link to={"/notice"}>All Notice</Link>
         </button>
       </div>
-      <h3>This is h3 heading</h3>
     </div>
   );
 };
